@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-             'crop_transformer_node = calibration_node.calibration:main'
+             'crop_transformer_node = calibration_node.calibration:main',
         ],
     },
 )
